@@ -1,0 +1,61 @@
+@media (max-width:768px){
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.card{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    transform: translateY(-400px);
+    visibility: hidden;
+    background-color: #0b5ed194;
+    transition: 1s;
+    /* align-items: center;
+    justify-content: center; */
+    color: #ffffff;
+    cursor: pointer;
+    cursor: pointer;
+    min-width: 100%;
+    min-height: 100%;
+}
+.card:hover .layer{
+    visibility: visible;
+    transform: translateY(0);
+    top: 0;
+
+}
+.layer h4{
+    width: 300px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 4rem;
+}
+.layer p{
+    width: 300px;
+font-size: 1rem;
+margin-top: 2rem;
+text-align: center;
+}
+.layer button{
+    width:150px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2rem;
+    border:none;
+    margin-left: 70px;
+}
