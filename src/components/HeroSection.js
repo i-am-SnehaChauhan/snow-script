@@ -1,41 +1,53 @@
 import React from 'react';
-import { Button, Container, CssBaseline, Grid, Typography } from '@mui/material';
+import { Box, Button, Container, CssBaseline, Grid, Typography, useTheme  } from '@mui/material';
 import Snowfall from 'react-snowfall';
 
 const HeroSection = () => {
+    const theme = useTheme();
   return (
-    <div style={{ position: 'relative' }}>
-      <Snowfall snowflakeCount={100} style={{ zIndex: 0, position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
+    <div style={{ position: 'relative', width: '100%', overflowX: 'hidden' }}>
+      <Snowfall 
+        snowflakeCount={250} 
+        color="#fff"
+        style={{ zIndex: 0, position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} />
       <CssBaseline />
-      <Container
-        component="main"
+      <Box
         sx={{
+          width: '100%',
           display: 'flex',
+          flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'space-between',
           minHeight: '100vh',
-          background: 'linear-gradient(to right, #87CEFA, #FFFFFF)', // Light blue to white gradient
-          color: '#333', // Darker text color for better readability
-          padding: (theme) => theme.spacing(8, 4),
+          background: 'linear-gradient(to right, #bdd7ea, #eff7fd)',
+          color: '#333',
+           // Set width to 100% on all screen sizes
+          [theme.breakpoints.up('md')]: {
+            flexDirection: 'row', // Change flex direction to row on medium screens and above
+          },
         }}
       >
-        <div>
+        <Box style={{width: '50%', alignItems: 'left', margin: 20 }}>
           <Typography variant="h2" sx={{ fontWeight: 'bold' }} gutterBottom>
             Your Catchy Heading Here
           </Typography>
           <Typography variant="h5" paragraph>
             A brief description of what your website or product offers.
           </Typography>
-          <Button variant="contained" color="primary" sx={{ mt: 2 }}> {/* Use the primary color for the button */}
+          <Button variant="contained" color="primary" sx={{ mt: 2 }}>
             Register
           </Button>
-        </div>
+        </Box>
+        <Box 
+          style={{width: '50%', alignItems: 'right', margin: 20 }}
+        >
         <img
-          src="path-to-your-image.jpg" // Replace with the actual path to your image
+          src="path-to-your-image.jpg"
           alt="Your Alt Text"
           style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }}
         />
-      </Container>
+        </Box>
+      </Box>
     </div>
   );
 };
