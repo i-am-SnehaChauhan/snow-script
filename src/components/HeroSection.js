@@ -6,7 +6,7 @@ import BG from '../assets/BG.jpg';
 const HeroSection = () => {
     const theme = useTheme();
   return (
-    <div style={{ position: 'relative', width: '100%', overflowX: 'hidden' }}>
+    <Box style={{ position: 'relative', width: '100%', overflowX: 'hidden' }}>
       <Snowfall 
         snowflakeCount={250} 
         color="#fff"
@@ -30,7 +30,7 @@ const HeroSection = () => {
             zIndex: -1,
             backgroundImage: `url(${BG})`,
             backgroundSize: 'cover',
-            filter: 'blur(3px)', // Adjust the blur intensity as needed
+            filter: 'blur(2px)', // Adjust the blur intensity as needed
           },
           // background: 'linear-gradient(to right, #bdd7ea, #eff7fd)',
           color: '#333',
@@ -41,7 +41,7 @@ const HeroSection = () => {
         }}
       >
        '
-        <Box style={{width: '50%', alignItems: 'left', margin: 20, top:0, marginTop: '-60px' }}>
+        <Box style={{width: '50%', alignItems: 'left', marginLeft: 60, top:0, marginTop: '-60px' }}>
           <Typography variant="h2" sx={{ fontWeight: 'bold', color: '#fff' }} gutterBottom>
             Your Catchy Heading Here
           </Typography>
@@ -62,7 +62,7 @@ const HeroSection = () => {
         />
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 
