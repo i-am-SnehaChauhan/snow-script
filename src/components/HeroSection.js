@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Button, Container, CssBaseline, Grid, Typography, useTheme  } from '@mui/material';
 import Snowfall from 'react-snowfall';
+import BG from '../assets/BG.jpg';
 
 const HeroSection = () => {
     const theme = useTheme();
@@ -19,7 +20,19 @@ const HeroSection = () => {
           alignItems: 'center',
           justifyContent: 'space-between',
           minHeight: '100vh',
-          background: 'linear-gradient(to right, #bdd7ea, #eff7fd)',
+          '::before': {
+            content: '""',
+            position: 'absolute',
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0,
+            zIndex: -1,
+            backgroundImage: `url(${BG})`,
+            backgroundSize: 'cover',
+            filter: 'blur(3px)', // Adjust the blur intensity as needed
+          },
+          // background: 'linear-gradient(to right, #bdd7ea, #eff7fd)',
           color: '#333',
            // Set width to 100% on all screen sizes
           [theme.breakpoints.up('md')]: {
@@ -27,11 +40,12 @@ const HeroSection = () => {
           },
         }}
       >
-        <Box style={{width: '50%', alignItems: 'left', margin: 20 }}>
-          <Typography variant="h2" sx={{ fontWeight: 'bold' }} gutterBottom>
+       '
+        <Box style={{width: '50%', alignItems: 'left', margin: 20, top:0, marginTop: '-60px' }}>
+          <Typography variant="h2" sx={{ fontWeight: 'bold', color: '#fff' }} gutterBottom>
             Your Catchy Heading Here
           </Typography>
-          <Typography variant="h5" paragraph>
+          <Typography variant="h5" paragraph sx={{color: '#fff'}}>
             A brief description of what your website or product offers.
           </Typography>
           <Button variant="contained" color="primary" sx={{ mt: 2 }}>
