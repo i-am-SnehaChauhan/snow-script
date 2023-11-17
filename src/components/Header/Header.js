@@ -14,6 +14,7 @@ function Header()
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Events</a></li>
+                <li><a href="/prizes">Prizes</a></li>
                 </ul>
             </nav>
         </header>
