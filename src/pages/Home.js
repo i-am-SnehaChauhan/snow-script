@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../components/HeroSection';
 import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
-import Event from "../components/Event/Event";
+// import Event from "../components/Event/Event";
 import Contribute from "../components/Contribution/contribute";
 import Project from "../components/Project/Project";
 import FAQs from '../components/FAQs/FAQs';
@@ -14,7 +14,7 @@ const Home = () => {
        <Header/>
        <HeroSection/>
        <AboutUs/>
-       <Event/>
+       {/* <Event/> */}
        <Contribute/>
        <Project/>
        <FAQs/>
