@@ -6,7 +6,7 @@ function Card(props)
     }
     return(
         <>
-         <div class="card">
+         <div class="cardproject">
             <img src={props.image} alt="image"/>
             <div class="layer"  >
                 <h4>{props.head}</h4>
