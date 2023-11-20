@@ -5,7 +5,8 @@ import Footer from "../components/Footer/Footer";
  import 'react-vertical-timeline-component/style.min.css';
  import { FaRegSnowflake } from "react-icons/fa";
  import prizes_bg from "../assets/prizes_bg.jpg";
- 
+ import "./prizes.css" ;
+
 
 
  const Prizes=()=>{

@@ -1,0 +1,27 @@
+/* .prizeList li::before {
+    content:'*';
+
+} */
+
+/* *{
+    list-style: disc;
+} */
+
+.prizeList{
+    /* list-style-type: 'disc'; */
+    list-style: disc;
+    
+}
+
+@media (max-width: 768px) {
+
+    .vertical-timeline-element-title{
+        font-size:2rem ;
+    }
+    .prizeList li {
+        font-size: 1.5rem;
+   
+    }
+    
+}
+
