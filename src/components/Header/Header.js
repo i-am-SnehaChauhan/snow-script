@@ -11,9 +11,9 @@ function Header()
                 <input type="checkbox" id="menu-toggle"/>
                 <label for="menu-toggle" class="menu-icon">&#9776;</label>
                 <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Events</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/events">Events</a></li>
                 <li><a href="/prizes">Prizes</a></li>
                 </ul>
             </nav>
