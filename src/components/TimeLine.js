@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaRegSnowflake } from "react-icons/fa";
 
+
 const TimeLine = () => {
   return (
     <>

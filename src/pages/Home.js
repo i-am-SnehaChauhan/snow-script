@@ -7,10 +7,12 @@ import Contribute from "../components/Contribution/contribute";
 import FAQs from '../components/FAQs/FAQs';
 import AboutUs from "../components/AboutUs/AboutUs";
 import TimeLine from '../components/TimeLine';
+import Animatedbg from '../components/AnimatedBG/Animatedbg';
 
 const Home = () => {
   return (
     <>
+      <Animatedbg/>
        <Header/>
        <HeroSection/>
        <AboutUs/>

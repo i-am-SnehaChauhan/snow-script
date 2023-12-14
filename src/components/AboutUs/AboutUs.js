@@ -12,7 +12,7 @@ const AboutUs = () => {
         alignItems: "center",
         justifyContent: "center",
         backgroundSize: "cover",
-        backgroundColor: "#111B1E",
+        
         backgroundBlendMode: "overlay",
         color: "white",
         filter: "drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25))",
@@ -55,7 +55,7 @@ const AboutUs = () => {
           px: { xs: 6, md: 16 },
           maxW: "1100px",
           backdropFilter: "blur(50px) backdropSaturate(200%)",
-          background: "linear-gradient(45deg, #111B1E, #1F2F32)",
+          background: "linear-gradient(45deg, #12486B, #1F2F32)",
           borderRadius: "29px",
           overflow: "hidden",
           textAlign: "left",
