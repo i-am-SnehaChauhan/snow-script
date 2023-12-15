@@ -1,0 +1,50 @@
+[
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/webD-kviz-app",
+        "title": "WebD Kviz App",
+        "desc": "This quiz app is crafted utilizing the Open Trivia Database API, offering a dynamic range of questions to keep the experience engaging. Notably, user scores are persistently stored in local storage, providing a seamless and personalized journey for each quiz taker.",
+        "maintainer": ["i-am-SnehaChauhan"],
+        "lang": ["HTML", "CSS", "JS"],
+        "tag": ["Web Development"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/webD-notes-app",
+        "title": "Notes App",
+        "desc": "A simple notes app allowing users to create, delete, and search notes. All notes are stored securely in local storage for easy access.",
+        "maintainer": ["i-am-SnehaChauhan"],
+        "lang": ["React", "Flask"],
+        "tag": ["Web"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/webD-tasty-tips-app",
+        "title": "Tasty Tips",
+        "desc": "A basic blogging application that includes user account creation and allows users to post their views.",
+        "maintainer": ["i-am-SnehaChauhan"],
+        "lang": ["Python", "HTML", "CSS", "JS"],
+        "tag": ["Web"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/StockPredictor",
+        "title": "Stock Prediction",
+        "desc": "A ToDo app made using MERN to keep track of your activities with a single click.",
+        "maintainer": ["i-am-SnehaChauhan", "tejaswi0910"],
+        "lang": ["MERN"],
+        "tag": ["Web"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/Portfolio-Creations",
+        "title": "Portfolio",
+        "desc": "A profile search engine and Chrome extension for accessing all social media profiles in one tap.",
+        "maintainer": ["i-am-SnehaChauhan"],
+        "lang": ["HTML", "CSS", "JS"],
+        "tag": ["Web", "(Chrome Extension)"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/YT-Transcripts",
+        "title": "YT Transcript",
+        "desc": "This repository contains the demo application of the package edualgo in Flutter and Dart.",
+        "maintainer": ["i-am-SnehaChauhan"],
+        "lang": ["Flutter"],
+        "tag": ["Android"]
+    }
+]
