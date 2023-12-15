@@ -1,4 +1,19 @@
 import "./Card.css";
+import {Button} from "../ButtonElement";
+
+
+const buttonStyles = {
+    width : "70%",
+    alignItem: "center",
+    marginBottom: "0",
+    TextDecoration: "none",
+    backgroundColor: "#12486B",
+    color: "#ffffff",
+    cursor: "pointer",
+    marginLeft: "40px",
+};
+
+
 function Card(props)
 {function redirect()
     {
@@ -9,9 +24,9 @@ function Card(props)
          <div class="cardproject">
             <img src={props.image} alt="image"/>
             <div class="layer"  >
-                <h4>{props.head}</h4>
+                <h2>{props.head}</h2>
                 <p>{props.content}</p>
-                <button onClick={redirect}>Explore Project</button>
+                <Button style={buttonStyles} onClick={redirect}>Explore Project</Button>
             </div>
             
         </div>

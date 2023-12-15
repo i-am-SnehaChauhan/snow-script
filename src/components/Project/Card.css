@@ -32,12 +32,12 @@
     top: 0;
 
 }
-.layer h4{
+.layer h2{
     width: 300px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     display: block;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .layer p{
     width: 300px;
