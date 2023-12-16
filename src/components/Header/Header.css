@@ -17,6 +17,9 @@
     background-color: #12263f;
     z-index: 1;
   }
+  .logogdsc{
+    width:15rem;
+  }
   
   nav {
     display: flex;
@@ -47,8 +50,8 @@
   
   .menu a {
     display: block;
-    padding: 7px 15px;
-    font-size: 17px;
+    margin-left: 4rem;
+    font-size: 18px;
     font-weight: 500;
     transition: 0.2s all ease-in-out;
     color: #fff;
@@ -61,6 +64,7 @@
   .menu a:hover {
     opacity: 1;
     color: #fff;
+    text-decoration: underline;
   }
   
   .menu-icon {
@@ -106,4 +110,9 @@
       cursor: pointer;
     }
   }
-  
+  .buttonheader{
+    background-color: #69adff;
+    color:white;
+    border-radius: 10%;
+    padding:0.75rem;
+  }
