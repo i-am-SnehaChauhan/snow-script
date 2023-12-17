@@ -3,7 +3,7 @@ import HeroSection from '../components/HeroSection';
 import Header from '../components/Header/Header';
 import Footer from "../components/Footer/Footer";
 // import Event from "../components/Event/Event";
-import Contribute from "../components/Contribution/contribute";
+import AnimeComponent from '../components/AnimeComponent/AnimeComponent';
 import FAQs from '../components/FAQs/FAQs';
 import AboutUs from "../components/AboutUs/AboutUs";
 import TimeLine from '../components/TimeLine';
@@ -17,7 +17,7 @@ const Home = () => {
        <HeroSection/>
        <AboutUs/>
        {/* <Event/> */}
-       <Contribute/>
+       <AnimeComponent/>
        <TimeLine/>
        <FAQs/>
        <Footer/>

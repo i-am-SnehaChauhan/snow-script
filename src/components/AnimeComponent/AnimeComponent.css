@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Roboto');
+
+
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Roboto');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #12263f;
+  counter-reset: increment 0;
+  overflow-x: hidden;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family:  sans-serif;
+  font-size: 4rem;
+  margin-top: 40px;
+  margin-bottom: -60px;
+}
+/* container style *********************************/
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 150px auto;
+  padding: 0 20px; /* Add some padding for better spacing on smaller screens */
+}
+
+/* text and image container style *********************************/
+.anime_review {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  margin: 5px;
+}
+
+/* image Container style *********************************/
+/* image Container style *********************************/
+.image {
+  position: relative;
+  background-color: rgb(18, 72, 107);
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-width: 300px;
+  counter-increment: increment;
+  transition: right 2s ease;
+  right: 100%; /* Add this line */
+}
+
+/* ... */
+
+.image.rtl {
+  right: 0;
+  transition: right 2s ease;
+  border-radius: 25px 0px 0px 25px;
+}
+
+/* text container style *********************************/
+.text {
+  flex: 3;
+  padding: 30px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  color: white;
+  min-width: 300px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-indent: 20px;
+  overflow: hidden;
+  transition: left 2s ease;
+}
+.mainHeading {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-top: 40px;
+  margin-bottom: -60px;
+  padding: 0 20px; /* Add some padding for better spacing on smaller screens */
+}
+
+/*container style
+*********************************/
+/* .container{
+  width: 1300px;
+  margin: 150px auto;
+} */
+
+/*text and image container style
+*********************************/
+/* .anime_review{
+  display: flex;
+  height: 400px;
+  margin: 5px;
+} */
+
+/*image Container style
+*********************************/
+/* .image{
+  position: relative;
+  right: 100%;
+  background-color: rgb(18, 72, 107);
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-width: 300px;
+  counter-increment: increment;
+  transition: right 2s ease;
+} */
+/* .mainHeading{
+    display: block;
+    width:1300px ;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+} */
+.topmargin{
+  margin-top: 70px;
+}
+
+.image:before{
+  content: counter(increment, upper-roman);
+  background: rgb(129 194 245 / 96%);
+  border-radius: 50%;
+  padding-left: 90px;
+  padding-top: 90px;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  color: #7dbdef;
+  border: 5px solid #12263f;
+  box-sizing: border-box;
+  top: -80px;
+  left: -80px;
+}
+/* .image.rtl{
+  right:0;
+  transition: right 2s ease;
+  border-radius: 25px 0px 0px 25px;
+} */
+
+/*text container style
+*********************************/
+.text{
+  position: relative;
+  left:100%;
+  background-color: rgb(18, 72, 107);
+  flex: 3;
+  padding: 30px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  color: white;
+  min-width: 300px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-indent: 20px;
+  overflow: hidden;
+  transition: left 2s ease;
+}
+
+.text::first-letter{
+  font-size: 3rem;
+  color: #4E342E;
+}
+.text::selection{
+      background: #A1887F;
+}
+.text.ltr{
+  left:0;
+  border-radius: 0px 25px 25px 0px;
+  transition: left 2s ease;
+}
+
+/*img style
+*********************************/
+.container img{
+  width: 180px;
+  height: 280px;
+  cursor: pointer;
+  transition: transform 0.1s linear;
+}
+.container img:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s linear;
+}
+
+/*Footer style
+*********************************/
+footer{
+  background-color: #210505;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: #d7ccc8b3;
+  font-family: 'Roboto', sans-serif;
+}
+footer a{
+  color: #d7ccc8;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer a:hover{
+   color: #d7ccc8d6;
+}
