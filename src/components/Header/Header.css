@@ -42,6 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bolder;
   }
 
   .menu li {
@@ -52,9 +53,10 @@
     display: block;
     margin-left: 4rem;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bolder;
     transition: 0.2s all ease-in-out;
     color: #fff;
+    text-decoration: none;
   }
   
   .menu:hover a {
@@ -110,9 +112,24 @@
       cursor: pointer;
     }
   }
-  .buttonheader{
-    background-color: #69adff;
+  .buttonheader {
+    background-color: #12263f;
     color:white;
     border-radius: 10%;
+    border: 2px solid #fff;
     padding:0.75rem;
+
+  }
+
+  .buttonheader:hover a{
+    background-color: #fff;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #12263f;
+    padding:0.75rem;
+  }
+
+  .buttonheader:hover a{
+    text-decoration: none;
+    color: #12263f;
   }
