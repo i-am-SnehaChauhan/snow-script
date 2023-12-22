@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import './AnimeComponent.css'; // Import your CSS file
+import React, { useEffect, useRef } from "react";
+import "./AnimeComponent.css"; // Import your CSS file
 
 const AnimeComponent = () => {
   const animeRef = useRef(null);
@@ -24,7 +24,7 @@ const AnimeComponent = () => {
 
   return (
     <div ref={animeRef}>
-      <div >
+      <div>
         <h1 className="mainHeading">How to contribute</h1>
       </div>
       <div className="container topmargin">
@@ -43,7 +43,41 @@ const AnimeComponent = () => {
           <div className="text">
             {/* Replace the Lorem Ipsum text with your actual content */}
             {/* You can use state and props to manage dynamic content */}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia nobis nesciunt illo, voluptas numquam doloremque cumque optio mollitia esse veritatis sapiente, aperiam possimus aut? Architecto velit quisquam debitis, reprehenderit error perspiciatis, sapiente molestias modi fuga dolorem hic vero? Deleniti voluptate natus architecto perspiciatis cumque minus enim mollitia tempore. Velit distinctio quidem, facilis et nemo est aliquid cupiditate aspernatur dolorem autem iste, tenetur fugit ut voluptatibus animi, doloremque aliquam repellendus ea aperiam obcaecati mollitia pariatur exercitationem suscipit soluta? 
+
+            <p>
+              Project-specific resources are provided in the READMEs of every
+              project but here for some general resources and contribution
+              guidelines to get you started!
+            </p>
+
+            <ul>
+              <li>
+                You can update existing projects or contribute any project you
+                made to participate.
+              </li>
+              <li>
+                Take a look at the Existing Issues of your project and find one
+                that interests you or create your own Issues!{" "}
+              </li>
+              <li>
+                {" "}
+                Add Screenshots to help us know what this Script is all about.
+              </li>
+              <li>
+                {" "}
+                Repository-specific contribution information is in the
+                respective READMEs of each repo.
+              </li>
+              <li>
+                {" "}
+                Do not abuse or use foul language. Ensure you don't insult
+                anyone. Be respectful and inclusive.
+              </li>
+              <li>
+                Please mention your full name on your GitHub handle to be
+                eligibl
+              </li>
+            </ul>
           </div>
         </div>
       </div>

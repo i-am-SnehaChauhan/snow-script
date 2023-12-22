@@ -45,7 +45,7 @@ a, a:hover, a:focus {
     /* color: #475f7b; */
     overflow: hidden;
     margin: 0;
-    background: transparent;
+   
     color:white;
 }
 
@@ -56,7 +56,7 @@ a, a:hover, a:focus {
     align-items: center; /* Adjusted to center items vertically */
     cursor: pointer;
     justify-content: space-between;
-    background-color: #ebedf0;
+    background-color: #ffffff;
     transition: 0.3s;
 }
 
@@ -72,6 +72,7 @@ a, a:hover, a:focus {
     border-radius: 5px;
     margin-bottom: 10px;
     overflow: hidden;
+    background-color: transparent;
 }
 
 .rc-accordion-card:last-child {

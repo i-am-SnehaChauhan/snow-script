@@ -1,22 +1,45 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import { FaRegSnowflake } from "react-icons/fa";
+import Timeline from "../assets/Timeline.png";
+
 
 
 const TimeLine = () => {
   return (
     <>
+   <div
+     style={{
       
-      <div
+        margin: '2px', // Adjust the value as needed
+     }}
+   >
+    <h1 
+        className="mainHeading"
+        style={{
+            display: 'block',
+            maxWidth: '100%',
+            textAlign: 'center',
+            color: 'white',
+            fontWeight: '900',
+            fontFamily: 'sans-serif',
+            marginTop: '40px',
+            marginBottom: '10px',
+            padding: '0 50px',
+            
+        }}
+    >
+        TimeLine
+    </h1>
+</div>
+
+      
+      {/* <div
         className="prizes"
         style={{
           backgroundImage: `url(${''})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          marginTop: "200px",
+          margin: "20px",
         }}
       >
         <VerticalTimeline lineColor="#12486B">
@@ -31,7 +54,7 @@ const TimeLine = () => {
             
           >
             <h3 className="vertical-timeline-element-title">Top 3</h3>
-            {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
+
             <p>
               <ul className="prizeList">
                 <li>Special Prize</li>
@@ -51,7 +74,7 @@ const TimeLine = () => {
              icon={<FaRegSnowflake />}
           >
             <h3 className="vertical-timeline-element-title">Top 5</h3>
-            {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
+        
             <p>
               <ul className="prizeList">
                 <li>Surprise Gift</li>
@@ -71,7 +94,7 @@ const TimeLine = () => {
              icon={<FaRegSnowflake />}
           >
             <h3 className="vertical-timeline-element-title">Top 10</h3>
-            {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
+            
             <p>
               <ul className="prizeList">
                 <li>Shoutouts on Social Media handles</li>
@@ -86,7 +109,7 @@ const TimeLine = () => {
             icon={<FaRegSnowflake />}
           >
             <h3 className="vertical-timeline-element-title">Top 25</h3>
-            {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
+            
             <p>
               <ul className="prizeList">
                 <li>Swag Kits and lot of exciting goodies</li>
@@ -106,7 +129,7 @@ const TimeLine = () => {
             <h3 className="vertical-timeline-element-title">
               ALL Contributors
             </h3>
-            {/* <h4 className="vertical-timeline-element-subtitle">Online Course</h4> */}
+            
             <p>
               <ul className="prizeList">
                 <li>
@@ -117,7 +140,20 @@ const TimeLine = () => {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-      </div> 
+      </div>  */}
+
+      <div
+        style={{
+          padding: "10px 80px",
+          display: "flex",
+          
+        }}
+      >
+       <img src={Timeline} alt="timeline" style={{ width: "100%", justifyContent:'center' }} />
+        
+     
+
+      </div>
     </>
     );
 }
