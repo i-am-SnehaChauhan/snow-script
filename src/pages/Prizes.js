@@ -8,16 +8,18 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaRegSnowflake } from "react-icons/fa";
 import prizes_bg from "../assets/prizes_bg.jpg";
+import Animatedbg from "../components/AnimatedBG/Animatedbg";
 
 const Prizes = () => {
   return (
     <div>
+      <Animatedbg />
       <Header />
 
       <div
         className="prizes"
         style={{
-          backgroundImage: `url(${prizes_bg})`,
+          // backgroundImage: `url(${prizes_bg})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}

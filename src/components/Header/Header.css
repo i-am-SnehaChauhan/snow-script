@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 10px 30px;
   }
   
   .logo a {
@@ -96,6 +96,13 @@
       transition: transform 0.3s ease-in-out;
       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
+    .buttonheader:hover {
+      background-color: #fff;
+      border-radius: 10%;
+      text-decoration: none;
+      color: #12263f;
+      padding:0.75rem;
+    }
   
     .menu a {
       margin-left: 12px;
@@ -120,6 +127,18 @@
     padding:0.75rem;
 
   }
+  
+.fab.fa-discord {
+  font-size: 2.5rem; 
+  margin-left: 12px;
+}
+
+/* If you want to adjust the size of the Discord icon in the smaller screen (mobile) view */
+@media only screen and (max-width: 450px) {
+  .fab.fa-discord {
+      font-size: rem; /* Adjust the size as needed */
+  }
+}
 
   .buttonheader:hover a{
     background-color: #fff;

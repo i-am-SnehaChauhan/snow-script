@@ -19,6 +19,7 @@ function Header()
                 <li><a href="/prizes">Prizes</a></li>
                 <li><a href="/prizes" className="buttonheader">Register</a></li>
                 <li><a href="/prizes" className="buttonheader">References</a></li>
+                <li><a href="https://discord.com/invite/SzpZBPXPVA"><i class="fab fa-discord"></i></a></li>
                 </ul>
             </nav>
         </header>
