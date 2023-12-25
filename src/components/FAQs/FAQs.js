@@ -32,7 +32,7 @@ const AccordionItem = (props) => {
     return (
         <div className="rc-accordion-card">
             <div className={`rc-accordion-toggle p-3 ${active === id ? 'active' : ''}`} onClick={() => handleToggle(id)}>
-                <h5 className="rc-accordion-title">{question}</h5>
+                <h2 className="rc-accordion-title">{question}</h2>
                 <i className="fa fa-chevron-down rc-accordion-icon"></i>
             </div>
             <div ref={contentEl} className={`rc-collapse ${active === id ? 'show' : ''}`} style={
@@ -57,7 +57,7 @@ const FAQs = () => {
 
     return (
         <div className="container">
-            <div className="card question-container">
+            <div className="question-container">
                 <h1 className="headline">Frequently Asked Questions</h1>
                 {faqs.map((faq, index) => (
                     <AccordionItem key={index} active={active} handleToggle={handleToggle} faq={faq} />
