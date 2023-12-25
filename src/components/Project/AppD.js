@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import data from './WebDdata.json';
+import data from './AppDdata.json';
 
-function WebD() {
+function AppD() {
     // Ensure projects is initialized with an empty array if data is undefined
     let [projects, setProjects] = useState(data || []);
 
@@ -41,4 +41,4 @@ function WebD() {
     );
 }
 
-export default WebD;
+export default AppD;

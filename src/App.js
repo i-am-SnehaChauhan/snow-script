@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Prizes from './pages/Prizes';
 import Projects from './pages/Projects';
 import WebDPage from './pages/WebDPage';
+import AppDPage from './pages/AppDPage';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/prizes" element={<Prizes />} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/projects/webD" element={<WebDPage />} />
+        <Route path="/projects/appD" element={<AppDPage/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
 
       </Routes>
