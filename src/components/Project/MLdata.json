@@ -1,0 +1,26 @@
+[
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/ML-image-classification",
+        "title": "Image Classification Models",
+        "desc": "A repository for submitting your image classification models for the GDSC IGDTUW Snowscript Winter of Code programme.",
+        "mentors": ["tejaswi0910"],
+        "lang": ["python"],
+        "tag": ["Machine Learning"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/ML-projects-2023",
+        "title": "ML Projects",
+        "desc": "A repository for submitting your ML projects for the GDSC IGDTUW Snowscript Winter of Code programme.",    
+        "mentors": ["tejaswi0910"],
+        "lang": ["python"],
+        "tag": ["Machine Learning"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/StockPredictor",
+        "title": "Stock Predictor",
+        "desc": "A repository for submitting your stock predictor models for the GDSC IGDTUW Snowscript Winter of Code programme.",
+        "maintainer": ["tejaswi0910"],
+        "lang": ["python" ],
+        "tag": ["Machine Learning"]
+    }
+]

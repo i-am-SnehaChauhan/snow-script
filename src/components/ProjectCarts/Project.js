@@ -20,8 +20,8 @@ function Project()
         </div>
         <div className="project-container">
         <Card image={DSA} head="DSA" content="Delve into open-source projects focused on data structures and algorithms. Collaborate with like-minded developers to optimize algorithms, enhance efficiency, and contribute to foundational
-           coding paradigms." link="www.google.com"/>
-        <Card image={ML} head="Machnine Learning" content="Advancing the field of machine learning. Contribute to projects gain hands-on experience in shaping the future of artificial intelligence. Make your mark on cutting-edge ML solutions and foster collaborative learning." link="www.google.com"/>
+           coding paradigms." link="/projects/dsa"/>
+        <Card image={ML} head="Machnine Learning" content="Advancing the field of machine learning. Contribute to projects gain hands-on experience in shaping the future of artificial intelligence. Make your mark on cutting-edge ML solutions and foster collaborative learning." link="/projects/ml"/>
         <Card image={UIUX} head="UI/UX" content="This is a webd project" link="www.google.com"/>
         </div>
         </>
