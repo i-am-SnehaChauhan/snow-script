@@ -1,0 +1,18 @@
+[
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/UX-UI-Case-Studies-and-Projects",
+        "title": "UX/UI Case Studies and Projects",
+        "desc": "This repository contains UX/UI case studies and projects. The aim of this repository is to provide a platform for beginners to learn and practice UX/UI skills. The repository contains case studies and projects of varying difficulty levels. The case studies and projects are divided into three categories: Beginner, In",
+        "mentors": ["captain-sal"],
+        "lang": ["Figma", "Adobe XD" ],
+        "tag": ["UI", "UX"]
+    },
+    {
+        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/Technical-Writing",
+        "title": "Technical Writing",
+        "desc": "Technical Writing Guidelines and Contribution Welcome to our technical writing repository! This project aims to create comprehensive and user-friendly technical documentation for various software projects.",    
+        "mentors": ["bh-gupta", "captain-sal"],
+        "lang": ["markdown"],
+        "tag": ["UI", "DSA"]
+    }
+]

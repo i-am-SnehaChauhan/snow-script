@@ -11,7 +11,7 @@ const DSAPage = () => {
         <Animatedbg />
         <Header />
         <DSA />
-        <Footer />
+        
      
     </>
   )

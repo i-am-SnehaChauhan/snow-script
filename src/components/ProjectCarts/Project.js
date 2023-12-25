@@ -22,7 +22,7 @@ function Project()
         <Card image={DSA} head="DSA" content="Delve into open-source projects focused on data structures and algorithms. Collaborate with like-minded developers to optimize algorithms, enhance efficiency, and contribute to foundational
            coding paradigms." link="/projects/dsa"/>
         <Card image={ML} head="Machnine Learning" content="Advancing the field of machine learning. Contribute to projects gain hands-on experience in shaping the future of artificial intelligence. Make your mark on cutting-edge ML solutions and foster collaborative learning." link="/projects/ml"/>
-        <Card image={UIUX} head="UI/UX" content="This is a webd project" link="www.google.com"/>
+        <Card image={UIUX} head="UI/UX" content="Explore the world of user interface and user experience design. Contribute to building intuitive and user-friendly interfaces, and elevate your skills while leaving a lasting impact on the world of UI/UX design." link="/projects/uiux"/>
         </div>
         </>
     )
