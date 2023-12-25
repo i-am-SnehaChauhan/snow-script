@@ -215,3 +215,15 @@ footer a{
 footer a:hover{
    color: #d7ccc8d6;
 }
+@media (max-width: 425px) {
+  .image {
+    width: 200px; /* Set the desired width for screens less than or equal to 425px */
+  }
+  .text.ltr {
+    top: 30px;
+    border-radius: 25px 25px 25px 25px;
+  }
+  .image.rtl {
+    border-radius: 25px 25px 25px 25px;
+  }
+}
