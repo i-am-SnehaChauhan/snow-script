@@ -15,7 +15,7 @@ function Project()
         <h1 className="skill-head"> Projects</h1>
         <div className="project-container">
         <Card image={WebDimage} head="Web Development" content="Web development projects to explore a diverse tech stack and refine your coding prowess. Contribute to cutting-edge frameworks, libraries, and web applications" link="/projects/webD"/>
-        <Card image={ARVRimage} head="AR/VR" content="This is a webd project" link="www.google.com"/>
+        <Card image={ARVRimage} head="AR/VR" content="Explore the world of augmented and virtual reality, and contribute to building immersive experiences. Elevate your skills while leaving a lasting impact on the world of AR/VR technology." link="/projects/arvr"/>
         <Card image={AppDimage} head="App Development" content="App development projects. Immerse yourself in a rich tech stack, and contribute to building innovative mobile applications. Elevate your skills while leaving a lasting impact on the world of mobile technology." link="/projects/appD"/>
         </div>
         <div className="project-container">

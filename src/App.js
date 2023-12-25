@@ -5,6 +5,7 @@ import Prizes from './pages/Prizes';
 import Projects from './pages/Projects';
 import WebDPage from './pages/WebDPage';
 import AppDPage from './pages/AppDPage';
+import ARVRPage from './pages/ARVRPage';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/projects" element={<Projects/>} />
         <Route path="/projects/webD" element={<WebDPage />} />
         <Route path="/projects/appD" element={<AppDPage/>} />
+        <Route path="/projects/arvr" element={<ARVRPage/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
 
       </Routes>
