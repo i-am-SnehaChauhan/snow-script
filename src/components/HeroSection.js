@@ -19,10 +19,13 @@ const HeroSection = () => {
   const onHover = () => {
     setHover(!hover);
   }
+
   const join = () => {
     window.open("https://forms.gle/9q5XvX6U4a3v1pWd8", "_blank");
   }
+
   const theme = useTheme();
+
   return (
     <Box
       style={{
@@ -64,26 +67,26 @@ const HeroSection = () => {
             zIndex: -1,
             backgroundImage: `url(${BG})`,
             backgroundSize: "cover",
-            opacity: 1, // Adjust the blur intensity as needed
+            opacity: 1,
           },
-          // background: 'linear-gradient(to right, #bdd7ea, #eff7fd)',
           color: "#333",
-          // Set width to 100% on all screen sizes
           [theme.breakpoints.up("md")]: {
-            flexDirection: "row", // Change flex direction to row on medium screens and above
+            flexDirection: "row",
           },
         }}
       >
-        '
         <Box
           style={{
             display: "flex",
             flexDirection: "column",
             height: "auto",
-            alignItems: "left",
-            marginLeft: 0,
+            alignItems: "center",
+            marginLeft: "150px",
             top: 0,
             marginTop: "-80px",
+            [theme.breakpoints.down("sm")]: {
+              marginTop: "auto", // Override marginTop for mobile screens
+            },
           }}
         >
           <img
@@ -94,6 +97,9 @@ const HeroSection = () => {
               height: "auto",
               borderRadius: "8px",
               filter: "drop-shadow(0px 0px 10px rgba(0, 0.2, 0.5, 1))",
+              [theme.breakpoints.down("sm")]: {
+                marginTop: "100px", // Override marginTop for mobile screens
+              },
             }}
           />
           <Button
@@ -103,8 +109,11 @@ const HeroSection = () => {
             primary="true"
             dark="true"
             onClick={join}
-            marginLeft="50px"
-            style={{ fontFamily: "Exo 2, sans-serif", fontWeight: 600 }}
+            style={{
+              fontFamily: "Exo 2, sans-serif",
+              fontWeight: 600,
+              marginTop: "20px", // Add margin top for spacing
+            }}
           >
             Register Now
           </Button>
