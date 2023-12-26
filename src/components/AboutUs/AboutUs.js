@@ -19,6 +19,10 @@ const AboutUs = () => {
         backgroundBlendMode: "overlay",
         color: "white",
         filter: "drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25))",
+        overflow: "hidden",
+      
+        zIndex: 0,
+        width: "100%",
       }}
     >
       <Box
@@ -26,7 +30,7 @@ const AboutUs = () => {
           position: 'absolute',
           top: 0,
           left: 0,
-          width: '100%',
+          width: '90%',
           height: '100%',
           pointerEvents: 'none', 
           zIndex:-1,
