@@ -17,8 +17,8 @@ function Header()
                 <li><a href="/">How to Contribute</a></li>
                 <li><a href="/">Timeline</a></li>
                 <li><a href="/prizes">Prizes</a></li>
-                <li><a href="/prizes" className="buttonheader">Register</a></li>
-                <li><a href="/prizes" className="buttonheader">References</a></li>
+                <li><a href="https://forms.gle/7GCJFgDamBqM5hxFA" className="buttonheader">Register</a></li>
+                <li><a href="https://drive.google.com/file/d/1jhaN9rbHmW5J9TpgEFlNvS9PPxtskbGE/view?usp=drive_link" className="buttonheader">References</a></li>
                 <li><a href="https://discord.com/invite/SzpZBPXPVA"><i class="fab fa-discord"></i></a></li>
                 </ul>
             </nav>

@@ -21,7 +21,7 @@ const HeroSection = () => {
   }
 
   const join = () => {
-    window.open("https://forms.gle/9q5XvX6U4a3v1pWd8", "_blank");
+    window.open("https://forms.gle/7GCJFgDamBqM5hxFA", "_blank");
   }
 
   const theme = useTheme();
@@ -103,7 +103,7 @@ const HeroSection = () => {
             }}
           />
           <Button
-            to="signup"
+            to="https://forms.gle/7GCJFgDamBqM5hxFA"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"

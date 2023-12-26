@@ -3,6 +3,9 @@ import React from "react";
 import aboutGdsc from "../../assets/About_GDSC.jpg";
 import "../AboutUs/AboutUs.css";
 const AboutUs = () => {
+  const Join = () => {
+    window.open("https://forms.gle/7GCJFgDamBqM5hxFA", "_blank");
+  };
   return (
     <Box
       sx={{
@@ -96,16 +99,18 @@ const AboutUs = () => {
     <Grid item>
     <Button
         variant="contained"
-        href="registrationlink.."
         sx={{
           backgroundColor: "#648E9B",
 
           color: 'white',
           "&:hover": {
             backgroundColor: "#111B1E", 
-            boxShadow: '0px 2px 2px rgba(150, 150, 150, 0.5)',        
+            boxShadow: '0px 2px 2px rgba(150, 150, 150, 0.5)',  
+                  
           },
+        
         }}
+        onClick={Join}
       >
         Register
   </Button>
