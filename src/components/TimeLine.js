@@ -1,5 +1,6 @@
 import React from "react";
 import Timeline from "../assets/Timeline.png";
+import { Box } from "@mui/system";
 
 
 
@@ -142,18 +143,30 @@ const TimeLine = () => {
         </VerticalTimeline>
       </div>  */}
 
-      <div
+      <Box
         style={{
           padding: "10px 80px",
           display: "flex",
-          
+          sx: {
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundSize: "cover",
+            backgroundBlendMode: "overlay",
+            color: "white",
+            filter: "drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25))",
+            overflow: "hidden",
+            zIndex: 0,
+            width: "a",
+            height: "auto",
+          },
         }}
       >
        <img src={Timeline} alt="timeline" style={{ width: "100%", justifyContent:'center' }} />
         
      
 
-      </div>
+      </Box>
     </>
     );
 }
