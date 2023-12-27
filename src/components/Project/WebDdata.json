@@ -17,10 +17,10 @@
     },
     {
         "repo-url": "https://github.com/SnowScriptWinterOfCode/ChefBook",
-        "title": "Tasty Tips",
+        "title": "ChefBook",
         "desc": "A basic blogging application that includes user account creation and allows users to post their views.",
         "mentors": ["i-am-SnehaChauhan"],
-        "lang": ["Python", "HTML", "CSS", "JS"],
+        "lang": ["HTML", "CSS", "JS"],
         "tag": ["Web"]
     },
     {
@@ -28,8 +28,8 @@
         "title": "Stock Prediction",
         "desc": "A ToDo app made using MERN to keep track of your activities with a single click.",
         "mentors": ["i-am-SnehaChauhan", "tejaswi0910"],
-        "lang": ["MERN"],
-        "tag": ["Web"]
+        "lang": ["Python", "Jupiter Notebook"],
+        "tag": ["Web", "Machine Learning"]
     },
     {
         "repo-url": "https://github.com/SnowScriptWinterOfCode/PortfolioCreations",
@@ -37,14 +37,14 @@
         "desc": "A profile search engine and Chrome extension for accessing all social media profiles in one tap.",
         "mentors": ["i-am-SnehaChauhan"],
         "lang": ["HTML", "CSS", "JS"],
-        "tag": ["Web", "(Chrome Extension)"]
+        "tag": ["Web Development"]
     },
     {
         "repo-url": "https://github.com/SnowScriptWinterOfCode/YouTube-Transcripts",
         "title": "YT Transcript",
         "desc": "This repository contains the demo application of the package edualgo in Flutter and Dart.",
         "mentors": ["i-am-SnehaChauhan"],
-        "lang": ["Flutter"],
-        "tag": ["Android"]
+        "lang": ["Python", "HTML", "CSS", "JS"],
+        "tag": ["Web Development"]
     }
 ]
