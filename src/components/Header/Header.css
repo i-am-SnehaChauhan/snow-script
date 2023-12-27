@@ -13,6 +13,7 @@
     padding: 0;
     top: 0;
     width: 100%;
+    max-width: 100%;
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
     background-color: #12263f;
     z-index: 1;
@@ -50,7 +51,7 @@
   
   .menu a {
     display: block;
-    margin-left: 4rem;
+    margin-left: 3.2rem;
     font-size: 18px;
     font-weight: 500;
     transition: 0.2s all ease-in-out;
@@ -78,7 +79,11 @@
   #menu-toggle:checked ~ .menu {
     transform: scale(1, 1);
   }
-  
+  @media only screen and (max-width: 1200px){
+    .menu a {
+      margin-left: 1.4rem;
+    }
+  }
   @media only screen and (max-width: 950px) {
     .menu {
       flex-direction: column;
@@ -96,7 +101,7 @@
     }
   
     .menu a {
-      margin-left: 12px;
+      margin-left: 1rem;
     }
   
     .menu li {
@@ -109,10 +114,22 @@
       font-size: 28px;
       cursor: pointer;
     }
+    .logogdsc{
+      height: 90px;
+      width: 300px;
+    }
   }
   .buttonheader{
     background-color: #69adff;
     color:white;
     border-radius: 10%;
     padding:0.75rem;
+  }
+
+  @media only screen and (max-width: 400px){
+
+    .logogdsc{
+      height: 70px;
+      width: 240px;
+    }
   }

@@ -31,6 +31,7 @@ const HeroSection = () => {
         overflowX: "hidden",
         margin: "0",
         padding: "0",
+        
       }}
     >
       <Snowfall
@@ -80,20 +81,24 @@ const HeroSection = () => {
             display: "flex",
             flexDirection: "column",
             height: "auto",
-            alignItems: "left",
-            marginLeft: 0,
-            top: 0,
-            marginTop: "-80px",
+            alignItems: "center",
+            
+            [theme.breakpoints.up("md")]: {
+              flexDirection: "row",
+              alignItems: "flex-start",
+            },
           }}
         >
           <img
             src={text}
             alt="Your Alt Text"
+            
             style={{
               maxWidth: "200%",
               height: "auto",
               borderRadius: "8px",
               filter: "drop-shadow(0px 0px 10px rgba(0, 0.2, 0.5, 1))",
+              
             }}
           />
           <Button
@@ -103,7 +108,8 @@ const HeroSection = () => {
             primary="true"
             dark="true"
             onClick={join}
-            marginLeft="50px"
+            marginTop={2}
+            marginLeft={theme.breakpoints.up("md") ? "50px" : "0"}
             style={{ fontFamily: "Exo 2, sans-serif", fontWeight: 600 }}
           >
             Register Now
@@ -113,8 +119,9 @@ const HeroSection = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "flex-end",
+            alignItems: "center",
             margin: 20,
+            
           }}
         >
           <img
