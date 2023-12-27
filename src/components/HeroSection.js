@@ -19,13 +19,10 @@ const HeroSection = () => {
   const onHover = () => {
     setHover(!hover);
   }
-
   const join = () => {
-    window.open("https://forms.gle/7GCJFgDamBqM5hxFA", "_blank");
+    window.open("https://forms.gle/9q5XvX6U4a3v1pWd8", "_blank");
   }
-
   const theme = useTheme();
-
   return (
     <Box
       style={{
@@ -34,6 +31,7 @@ const HeroSection = () => {
         overflowX: "hidden",
         margin: "0",
         padding: "0",
+        
       }}
     >
       <Snowfall
@@ -67,53 +65,52 @@ const HeroSection = () => {
             zIndex: -1,
             backgroundImage: `url(${BG})`,
             backgroundSize: "cover",
-            opacity: 1,
+            opacity: 1, // Adjust the blur intensity as needed
           },
+          // background: 'linear-gradient(to right, #bdd7ea, #eff7fd)',
           color: "#333",
+          // Set width to 100% on all screen sizes
           [theme.breakpoints.up("md")]: {
-            flexDirection: "row",
+            flexDirection: "row", // Change flex direction to row on medium screens and above
           },
         }}
       >
+        '
         <Box
           style={{
             display: "flex",
             flexDirection: "column",
             height: "auto",
             alignItems: "center",
-            marginLeft: "150px",
-            top: 0,
-            marginTop: "-80px",
-            [theme.breakpoints.down("sm")]: {
-              marginTop: "auto", // Override marginTop for mobile screens
+            
+            [theme.breakpoints.up("md")]: {
+              flexDirection: "row",
+              alignItems: "flex-start",
             },
           }}
         >
           <img
             src={text}
             alt="Your Alt Text"
+            
             style={{
-              maxWidth: "200%",
+              width: "100%",
               height: "auto",
               borderRadius: "8px",
               filter: "drop-shadow(0px 0px 10px rgba(0, 0.2, 0.5, 1))",
-              [theme.breakpoints.down("sm")]: {
-                marginTop: "100px", // Override marginTop for mobile screens
-              },
+              
             }}
           />
           <Button
-            to="https://forms.gle/7GCJFgDamBqM5hxFA"
+            to="signup"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
             dark="true"
             onClick={join}
-            style={{
-              fontFamily: "Exo 2, sans-serif",
-              fontWeight: 600,
-              marginTop: "20px", // Add margin top for spacing
-            }}
+            marginTop={2}
+            marginLeft={theme.breakpoints.up("md") ? "50px" : "0"}
+            style={{ fontFamily: "Exo 2, sans-serif", fontWeight: 600 }}
           >
             Register Now
           </Button>
@@ -122,8 +119,9 @@ const HeroSection = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "flex-end",
+            alignItems: "center",
             margin: 20,
+            
           }}
         >
           <img
