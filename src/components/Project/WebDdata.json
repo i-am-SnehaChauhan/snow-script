@@ -1,6 +1,6 @@
 [
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/webD-kviz-app",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/QuickQuiz",
         "title": "WebD Kviz App",
         "desc": "This quiz app is crafted utilizing the Open Trivia Database API, offering a dynamic range of questions to keep the experience engaging. Notably, user scores are persistently stored in local storage, providing a seamless and personalized journey for each quiz taker.",
         "mentors": ["i-am-SnehaChauhan"],
@@ -8,7 +8,7 @@
         "tag": ["Web Development"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/webD-notes-app",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/Notes-App",
         "title": "Notes App",
         "desc": "A simple notes app allowing users to create, delete, and search notes. All notes are stored securely in local storage for easy access.",
         "mentors": ["i-am-SnehaChauhan"],
@@ -16,7 +16,7 @@
         "tag": ["Web"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/webD-tasty-tips-app",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/ChefBook",
         "title": "Tasty Tips",
         "desc": "A basic blogging application that includes user account creation and allows users to post their views.",
         "mentors": ["i-am-SnehaChauhan"],
@@ -24,7 +24,7 @@
         "tag": ["Web"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/StockPredictor",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/Stock-Prediction",
         "title": "Stock Prediction",
         "desc": "A ToDo app made using MERN to keep track of your activities with a single click.",
         "mentors": ["i-am-SnehaChauhan", "tejaswi0910"],
@@ -32,7 +32,7 @@
         "tag": ["Web"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/Portfolio-Creations",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/PortfolioCreations",
         "title": "Portfolio",
         "desc": "A profile search engine and Chrome extension for accessing all social media profiles in one tap.",
         "mentors": ["i-am-SnehaChauhan"],
@@ -40,7 +40,7 @@
         "tag": ["Web", "(Chrome Extension)"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/YT-Transcripts",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/YouTube-Transcripts",
         "title": "YT Transcript",
         "desc": "This repository contains the demo application of the package edualgo in Flutter and Dart.",
         "mentors": ["i-am-SnehaChauhan"],

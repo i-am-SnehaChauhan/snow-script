@@ -1,6 +1,6 @@
 [
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/AR-VR-filters",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/FilterFiesta",
         "title": "AR-VR-filters",
         "desc": "The app contains a basic structure of AR-VR-filters. AR-VR-filters is a free photo and video sharing app available on iPhone and Android. People can upload photos or videos to our service and share them with their followers or with a selected group of friends.",
         "mentors": ["Aarushi-29"],
@@ -8,7 +8,7 @@
         "tag": ["AR-VR"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/ar-projects-2023",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/AR-VR-Projects",
         "title": "Projects",
         "desc": "A repository for submitting your AR/Game Dev projects for the GDSC IGDTUW Snowscript Winter of Code programme.", 
         "mentors": ["Aarushi-29"],
@@ -16,7 +16,7 @@
         "tag": ["AR-VR"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/3D-Models",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/3D-models",
         "title": "3D Models",
         "desc": "A repository for submitting your 3D Models for the GDSC IGDTUW Snowscript Winter of Code programme.",
         "maintainer": ["Aarushi-29"],

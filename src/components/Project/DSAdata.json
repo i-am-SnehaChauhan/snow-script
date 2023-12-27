@@ -1,17 +1,17 @@
 [
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/dsa-foundation",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/LeetCode_Q",
         "title": "DSA Foundation",
         "desc": "A repository for submitting your DSA solutions for the GDSC IGDTUW Snowscript Winter of Code programme.",
-        "mentors": ["bh-gupta", "karishma-2020" ,"kratika-Jangid"],
+        "mentors": ["bh-g", "karishma-2020" ,"kratika-Jangid"],
         "lang": ["c++", "java", "python"],
         "tag": ["DSA"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/Technical-Writing",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/Technical_Writing",
         "title": "Technical Writing",
         "desc": "Technical Writing Guidelines and Contribution Welcome to our technical writing repository! This project aims to create comprehensive and user-friendly technical documentation for various software projects.",    
-        "mentors": ["bh-gupta", "captain-sal"],
+        "mentors": ["bh-g", "captain-sal"],
         "lang": ["markdown"],
         "tag": ["UI", "DSA"]
     }

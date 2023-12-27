@@ -1,6 +1,6 @@
 [
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/flutter-projects-23",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/Flutter-Projects",
         "title": "Flutter Projects",
         "desc": "This repository contains the demo application of the package edualgo in Flutter and Dart.",
         "mentors": ["Aarushi-29"],
@@ -8,7 +8,7 @@
         "tag": ["Android"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/flutter-insta-clone",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/SociallyGram",
         "title": "Insta Clone",
         "desc": "The app contains a basic structure of Instagram. Instagram is a free photo and video sharing app available on iPhone and Android. People can upload photos or videos to our service and share them with their followers or with a selected group of friends.", 
         "mentors": ["Aarushi-29"],
@@ -16,7 +16,7 @@
         "tag": ["Android"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/flutter-wordle-app",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/Wordle",
         "title": "Wordle App",
         "desc": "The app contains wordle clone. Wordle is a daily word game created by Josh Wardle, a Brooklyn-based software engineer who has developed something of a reputation as a crafter of interesting social experiments.",
         "mentors": ["Aarushi-29"],
@@ -24,7 +24,7 @@
         "tag": ["Android"]
     },
     {
-        "repo-url": "https://github.com/GDSC-IGDTUW-Autumn-of-Code-2022/Digital-ID",
+        "repo-url": "https://github.com/SnowScriptWinterOfCode/Digital-ID",
         "title": "Digital ID",
         "desc": "The app contains a basic structure of Digital ID. Digital ID is a free photo and video sharing app available on iPhone and Android. People can upload photos or videos to our service and share them with their followers or with a selected group of friends.",
         "mentors": ["Aarushi-29"],
