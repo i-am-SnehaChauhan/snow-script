@@ -76,7 +76,7 @@ const AboutUs = () => {
     <Grid item xs={12} sm container sx={{ flexDirection: { xs: 'column', md: 'row', lg:'row' } }}>
       <Grid item xs container direction="column" spacing={2}>
         <Grid item xs>
-    <Typography variant="h1" fontWeight="bold" fontSize={{ xs: "30px", sm:"40px", md: "50px" }}>
+    <Typography variant="h1" fontWeight="bold" fontSize={{ xs: "30px", sm:"40px", md: "50px" }} marginBottom={"2px"}>
     About Us
       <br /> 
   </Typography>
@@ -131,7 +131,7 @@ const AboutUs = () => {
              backgroundBlendMode: "overlay",
              borderRadius: {xs:"9px", sm:"19px", md:"29px"},
              height: {xs:"40vh", sm:"40vh", md:"50vh"},
-             width: {xs:"40vh", sm:"40vh", md:"50vh"},
+             width: {xs:"80vh", sm:"40vh", md:"50vh"},
              marginLeft: { xs: 0, md: "20px" }, 
              marginTop: { xs: "20px", md: 0 },
            }}
