@@ -81,7 +81,7 @@ const AboutUs = () => {
       <br /> 
   </Typography>
       <Typography variant="h2" fontWeight="bold" fontSize={{ xs: "18px", sm:"20px", md: "20px" }}>
-         GDSC Winter of Code is here!
+         GDSC Snowscript Winter of Code is here!
          <br /> <br />
          </Typography>
          <Typography variant="body1" fontWeight={200} fontSize={{ xs: "10px", sm:"10px", md: "15px" }}>

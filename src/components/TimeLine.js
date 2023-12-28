@@ -25,7 +25,7 @@ const TimeLine = () => {
             padding: "0 50px", // Default padding for medium and large screens
           }}
         >
-          TimeLine
+          Timeline
         </h1>
       </div>
 

@@ -173,7 +173,7 @@ h1{
 
 .text::first-letter{
   font-size: 3rem;
-  color: #4E342E;
+  color: #fff;
 }
 .text::selection{
       background: #A1887F;
