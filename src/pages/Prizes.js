@@ -33,13 +33,13 @@ const Prizes = () => {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaRegSnowflake />}
           >
-            <h3 className="vertical-timeline-element-title">Top 3</h3>
+            <h3 className="vertical-timeline-element-title">Top 3 Contributors❄️</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
             <p>
               <ul className="prizeList">
                 <li>Special Prize</li>
                 <li>Shoutouts on Social Media handles</li>
-                <li>Swag Kits and lot of exciting goodies</li>
+                <li>Bonanza Swag Kits</li>
                 <li>Certificate of appreciation</li>
               </ul>
             </p>
@@ -49,13 +49,13 @@ const Prizes = () => {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaRegSnowflake />}
           >
-            <h3 className="vertical-timeline-element-title">Top 5</h3>
+            <h3 className="vertical-timeline-element-title">Top 5 Female Contributors❄️</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
             <p>
               <ul className="prizeList">
-                <li>Surprise Gift</li>
+                <li>Surprise Prize</li>
                 <li>Shoutouts on Social Media handles</li>
-                <li>Swag Kits and lot of exciting goodies</li>
+                <li>Special Swag Kits</li>
                 <li>Certificate of appreciation</li>
               </ul>
             </p>
@@ -65,7 +65,7 @@ const Prizes = () => {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaRegSnowflake />}
           >
-            <h3 className="vertical-timeline-element-title">Top 10</h3>
+            <h3 className="vertical-timeline-element-title">Top 10 Contributors❄️</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
             <p>
               <ul className="prizeList">
@@ -80,7 +80,7 @@ const Prizes = () => {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaRegSnowflake />}
           >
-            <h3 className="vertical-timeline-element-title">Top 25</h3>
+            <h3 className="vertical-timeline-element-title">Top 25 Contributors❄️</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
             <p>
               <ul className="prizeList">
